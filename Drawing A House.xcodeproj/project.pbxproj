@@ -21,6 +21,7 @@
 		4C729A30184B1D6500084B2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C729A12184B1D6300084B2A /* UIKit.framework */; };
 		4C729A38184B1D6500084B2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C729A36184B1D6500084B2A /* InfoPlist.strings */; };
 		4C729A3A184B1D6500084B2A /* Drawing_A_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C729A39184B1D6500084B2A /* Drawing_A_HouseTests.m */; };
+		4C729A45184B1EA600084B2A /* ETHouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C729A44184B1EA600084B2A /* ETHouseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4C729A35184B1D6500084B2A /* Drawing A HouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing A HouseTests-Info.plist"; sourceTree = "<group>"; };
 		4C729A37184B1D6500084B2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C729A39184B1D6500084B2A /* Drawing_A_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_A_HouseTests.m; sourceTree = "<group>"; };
+		4C729A43184B1EA600084B2A /* ETHouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETHouseView.h; sourceTree = "<group>"; };
+		4C729A44184B1EA600084B2A /* ETHouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETHouseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				4C729A1D184B1D6400084B2A /* ETAppDelegate.h */,
 				4C729A1E184B1D6400084B2A /* ETAppDelegate.m */,
 				4C729A20184B1D6400084B2A /* Main.storyboard */,
+				4C729A43184B1EA600084B2A /* ETHouseView.h */,
+				4C729A44184B1EA600084B2A /* ETHouseView.m */,
 				4C729A23184B1D6400084B2A /* ETViewController.h */,
 				4C729A24184B1D6400084B2A /* ETViewController.m */,
 				4C729A26184B1D6400084B2A /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C729A45184B1EA600084B2A /* ETHouseView.m in Sources */,
 				4C729A25184B1D6400084B2A /* ETViewController.m in Sources */,
 				4C729A1B184B1D6400084B2A /* main.m in Sources */,
 				4C729A1F184B1D6400084B2A /* ETAppDelegate.m in Sources */,
